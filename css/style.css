@@ -1,3 +1,8 @@
+:root{
+    --primarycolor: #F4D684;
+    --secundarycolor: #4A4B80;
+}
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -11,4 +16,9 @@ html{
 body{
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primarycolor);
 }
+
