@@ -27,16 +27,24 @@ header{
     height: 35vh;
     /* border: red solid 1px; */
     background-color: var(--primarycolor);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 nav{
     width: 50%;
     height: 90%;
-    border: var(--secundarycolor) solid 1px;
+    /* border: var(--secundarycolor) solid 1px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.vid-anim{
+    width: 50%;
+    height: 100%;
+    border: var(--secundarycolor) solid 1px;
 }
 
 nav .logo{
