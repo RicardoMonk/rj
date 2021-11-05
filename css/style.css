@@ -47,11 +47,16 @@ nav .logo{
     font-weight:700;
     list-style: none;
     color: var(--secundarycolor);
-    margin: 1rem auto;
+    margin: .8rem auto;
+}
+ul li{
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-.second-item{
-    padding: 1rem auto;
+nav ul .second-item{
+    border-top: var(--secundarycolor) solid 1px;
+    border-bottom: var(--secundarycolor) solid 1px;
 }
 
 /* style navigation blok */
