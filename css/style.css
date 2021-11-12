@@ -408,7 +408,7 @@ input:focus~.barra::before{
     nav{
         width: 50%;
         height: 25rem;
-        border: var(--secundarycolor) solid 1px;
+        /* border: var(--secundarycolor) solid 1px; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -759,7 +759,7 @@ input:focus~.barra::before{
     nav{
         width: 50%;
         height: 25rem;
-        border: var(--secundarycolor) solid 1px;
+        /* border: var(--secundarycolor) solid 1px; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
