@@ -9,6 +9,12 @@
 
     <title>RJ&V</title>
 
+    <!-- este jquery va a dar la funcion para navegar en un mismo lugar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- este js es mi archivo principal de js -->
+    <script src="main.js"></script>
+
 </head>
 <body>
 
@@ -17,9 +23,15 @@
             <img src="imgs/RJ&V.svg" alt="RJ&V" class="logo">
 
             <ul>
-                <a href=""><li class="list-item">Sobre Nosotros</li></a>
-                <a href=""><li class="list-item second-item">Catálogo</li></a>
-                <a href=""><li class="list-item">Contacto</li></a>
+                <li class="list-item">
+                    <a href="#">Sobre Nosotros</a>
+                </li>
+                
+                <li class="list-item second-item"><a href="#">Catálogo</a>
+                </li>
+
+                <li class="list-item"><a href="#">Contacto</a>
+                </li>
             </ul>
         </nav>
 
@@ -28,7 +40,7 @@
         </div>
     </header>
 
-    <section class="main-cont"> 
+    <section id="nosotros" class="main-cont"> 
         <article>
             <div class="cont-text">
                 <h1>RJ&V Distribution</h1>
@@ -41,7 +53,7 @@
         </div>
     </section>
 
-    <section class="second-cont">  
+    <section id="catalogo" class="second-cont">  
 
         <div class="second-cont-img">
             <img src="imgs/2RJ&VProductos.png" alt="">
@@ -56,6 +68,64 @@
 
         <div class="cont-butt">
             <a href="imgs/RJ&V.svg" download="">Descargar</a>
+        </div>
+
+    </section>
+
+    <section id="contacto" class="third-cont">  
+
+        <div class="third-cont-img">
+            <img src="imgs/3RJ&VProductos.png" alt="">
+        </div>
+        
+        <article>
+            <div class="third-cont-text">
+                <h3>¿Necesitas Cotizar?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore adipisci ipsum facere et dolore distinctio, ea soluta maxime tempora odit quasi optio praesentium. Mollitia ipsa quibusdam ab non recusandae. Natus.</p>
+            </div>
+        </article>
+
+        <div class="form-anim">
+
+            <form action="enviar.php" method="post" id="form">
+
+                <div class="form">
+    
+                    <div class="grupo">
+                        <input type="text" name="name" id="name" required> <span class="barra"></span>
+                        <label for="">Nombre</label>
+                    </div>
+    
+                    <div class="grupo">
+                        <input type="text" name="empresa" id="name" required> <span class="barra"></span>
+                        <label for="">Empresa</label>
+                    </div>
+    
+                    <div class="grupo">
+                        <input type="number" name="phone" id="name" required> <span class="barra"></span>
+                        <label for="">Tel</label>
+                    </div>
+    
+                    <div class="grupo">
+                        <input type="email" name="mail" id="name" required> <span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+    
+                    <div class="grupo">
+                        <input type="text" name="message" id="name" required> <span class="barra"></span>
+                        <label for="">Asunto</label>
+                    </div>
+    
+                    <button class="enviar" type="submit">Enviar</button>
+                    
+                </div>
+    
+            </form>
+
+            <div class="third-anim">
+                <video src=""></video>
+            </div>
+
         </div>
 
     </section>
