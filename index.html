@@ -13,7 +13,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- este js es mi archivo principal de js -->
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 
 </head>
 <body>
@@ -22,15 +22,15 @@
         <nav>
             <img src="imgs/RJ&V.svg" alt="RJ&V" class="logo">
 
-            <ul>
+            <ul class="tabs">
                 <li class="list-item">
-                    <a href="#">Sobre Nosotros</a>
+                    <a href="#tab1">Sobre Nosotros</a>
                 </li>
                 
-                <li class="list-item second-item"><a href="#">Catálogo</a>
+                <li class="list-item second-item"><a href="#tab2">Catálogo</a>
                 </li>
 
-                <li class="list-item"><a href="#">Contacto</a>
+                <li class="list-item"><a href="#tab3">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -40,7 +40,7 @@
         </div>
     </header>
 
-    <section id="nosotros" class="main-cont"> 
+    <section id="tab1" class="main-cont secciones"> 
         <article>
             <div class="cont-text">
                 <h1>RJ&V Distribution</h1>
@@ -53,7 +53,7 @@
         </div>
     </section>
 
-    <section id="catalogo" class="second-cont">  
+    <section id="tab2" class="second-cont  secciones">  
 
         <div class="second-cont-img">
             <img src="imgs/2RJ&VProductos.png" alt="">
@@ -72,7 +72,7 @@
 
     </section>
 
-    <section id="contacto" class="third-cont">  
+    <section id="tab3" class="third-cont  secciones">  
 
         <div class="third-cont-img">
             <img src="imgs/3RJ&VProductos.png" alt="">
