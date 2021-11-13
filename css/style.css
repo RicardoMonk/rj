@@ -301,7 +301,7 @@ form .grupo{
 
 input{
     background: none;
-    color:black;
+    color: #fdedc1;
     font-size: 2rem;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -312,7 +312,7 @@ input{
 
 input:focus{
     outline: none;
-    color: #808080;
+    color: var(--primarycolor);
 }
 
 label{
