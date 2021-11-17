@@ -144,6 +144,7 @@ ul li a{
 
 .main-cont-img img{
     width: 115%;
+    min-width: 75rem;
     height: auto;
     position: relative;
     top: -10rem;
@@ -502,6 +503,7 @@ input:focus~.barra::before{
     
     .main-cont-img img{
         width: 115%;
+        min-width: 63rem;
         height: auto;
         position: relative;
         top: -10rem;

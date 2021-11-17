@@ -13,3 +13,15 @@ $(document).ready(function(){
         return false;
     });
 });
+
+/* Fix iOS 7 bug for -unit support */
+var iOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
+if(iOS){
+    function iosVhHeightBug() {
+        var height = $(window).height();
+        $("#capa-para-redimensionar").css('min-height', height);
+    }
+ 
+    iosVhHeightBug();
+    $(window).bind('resize', iosVhHeightBug);
+}
